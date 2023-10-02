@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerCleanArchitectu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerCleanArchitecture.Persistence", "BlazorServerCleanArchitecture.Persistence\BlazorServerCleanArchitecture.Persistence.csproj", "{CDD66CA8-B279-487F-AD08-C69DDDB40BF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerCleanArchitecture.WebUI", "BlazorServerCleanArchitecture.WebUI\BlazorServerCleanArchitecture.WebUI.csproj", "{0AAEC601-E2ED-4CCD-8C32-6A61AE815977}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerCleanArchitecture.WebUI", "BlazorServerCleanArchitecture.WebUI\BlazorServerCleanArchitecture.WebUI.csproj", "{197BF5BB-320B-40FD-89C2-AD628473975C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{CDD66CA8-B279-487F-AD08-C69DDDB40BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDD66CA8-B279-487F-AD08-C69DDDB40BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDD66CA8-B279-487F-AD08-C69DDDB40BF8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0AAEC601-E2ED-4CCD-8C32-6A61AE815977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AAEC601-E2ED-4CCD-8C32-6A61AE815977}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AAEC601-E2ED-4CCD-8C32-6A61AE815977}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AAEC601-E2ED-4CCD-8C32-6A61AE815977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197BF5BB-320B-40FD-89C2-AD628473975C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197BF5BB-320B-40FD-89C2-AD628473975C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197BF5BB-320B-40FD-89C2-AD628473975C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197BF5BB-320B-40FD-89C2-AD628473975C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,7 +47,7 @@ Global
 		{31834784-2C00-4C91-9FCB-E14E055E57CF} = {504411D3-45F0-4048-97D3-C0D8353BD0C0}
 		{0CBAE63D-3D8D-4547-A596-E1C10DB6C017} = {504411D3-45F0-4048-97D3-C0D8353BD0C0}
 		{CDD66CA8-B279-487F-AD08-C69DDDB40BF8} = {77F07CFC-562E-40DF-99B6-76BE048EECF2}
-		{0AAEC601-E2ED-4CCD-8C32-6A61AE815977} = {0BB456FD-555F-4152-9C9B-313A21DCA201}
+		{197BF5BB-320B-40FD-89C2-AD628473975C} = {0BB456FD-555F-4152-9C9B-313A21DCA201}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CDEE91FE-E4F3-4CA3-81FF-5E8BA696BAFA}
