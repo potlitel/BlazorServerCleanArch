@@ -24,7 +24,7 @@ namespace BlazorServerCleanArchitecture.Persistence.Repositories
 
         public Task UpdateAsync(T entity)
         {
-            T exist = _dbContext.Set<T>().Find(entity.Id)!;
+            T exist = _dbContext.Set<T>().Find(entity.Id);
             _dbContext.Entry(exist).CurrentValues.SetValues(entity);
             return Task.CompletedTask;
         }

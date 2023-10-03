@@ -1,7 +1,7 @@
 ﻿using BlazorServerCleanArchitecture.Application.Common.Mappings;
 using BlazorServerCleanArchitecture.Domain.Entities;
 
-namespace BlazorServerCleanArchitecture.Application.Features.Stadiums.Queries
+namespace BlazorServerCleanArchitecture.Application.Features.Stadiums.Queries.GetAllStadiums
 {
     public class GetAllStadiumsDto : IMapFrom<Stadium>
     {
