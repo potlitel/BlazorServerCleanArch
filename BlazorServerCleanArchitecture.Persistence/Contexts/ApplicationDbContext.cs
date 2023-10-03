@@ -17,6 +17,26 @@ namespace BlazorServerCleanArchitecture.Persistence.Contexts
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            modelBuilder.Entity<Stadium>().HasData(
+            new Stadium
+            {
+                Name = "Emirates Stadium",
+                City = "London",
+                Capacity = 60260,
+                BuiltYear = 2006,
+                PitchLength = 105,
+                PitchWidth = 68
+            },
+            new Stadium
+            {
+                Name = "Villa Park",
+                City = "Birminghan",
+                Capacity = 42682,
+                BuiltYear = 1897,
+                PitchLength = 105,
+                PitchWidth = 68
+            });
         }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
