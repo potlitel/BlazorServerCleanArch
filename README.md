@@ -1,1 +1,1 @@
-# BlazorServerCleanArch
+# 🏛️BlazorServerCleanArch
